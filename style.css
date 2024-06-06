@@ -1,20 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .bg-primary{
     background: rgb(0 81 231) !important;
 }
 
-.web-container{
-    font-family: "Montserrat", sans-serif;
+body{
+    padding: 0;
+    margin: 0;
 }
-.web-container nav img{
+.container-fluid{
+    font-family: "Montserrat", sans-serif;
+    padding: 0 !important;
+}
+.container-fluid nav img{
     width: 150px !important;
 }
-.web-container nav .nav-link{
+.container-fluid nav .nav-link{
     font-weight: 500 !important;
 }
-.web-container .web-body::before{
-    background-color: transparent;
-    background-image: rgb(32, 32, 154) ;
-}
+
 .main-text{
     font-size: 3.5em;
     font-weight: 700;

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +14,7 @@
 </head>
 
 <body>
-  <div class="web-container vh-100">
+  <div class="container-fluid overflow-x-hidden vh-100">
     <nav class="navbar navbar-expand-lg bg-white p-0">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="LOGO.jpg" class="img-fluid navbar-brand"></a>
@@ -26,74 +25,93 @@
         <div class="collapse me-auto navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav w-100 justify-content-end mb-2 mb-lg-0 gap-3">
             <li class="nav-item">
-              <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-dark active" aria-current="page" href="#home">Home</a>
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Services
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Zoho Creator</a></li>
-                <li><a class="dropdown-item" href="#">Zoho CRM</a></li>
-                <li><a class="dropdown-item" href="#">Custom Apps</a></li>
+                <li><a class="dropdown-item" href="#zoho-creator">Zoho Creator</a></li>
+                <li><a class="dropdown-item" href="#zoho-crm">Zoho CRM</a></li>
+                <li><a class="dropdown-item" href="#custom-apps">Custom Apps</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Reviews</a>
+              <a class="nav-link text-dark" href="#reviews">Reviews</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">About</a>
+              <a class="nav-link text-dark" href="#about">About</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link text-dark">Contact</a>
+              <a class="nav-link text-dark" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="web-body h-100">
-      <div class="row h-100">
-        <div class="col-12">
-          <div class="card d-flex align-items-center bg-primary h-100">
-            <div class="row">
-              <div class="col-xl-8 col-xxl-8 xol-lg-8 col-sm-12 h-100">
-                <div class="border-0 p-5">
-                  <div class="main-text text-white rounded-0">
-                    Where simplicity meets innovation in app development, making solutions easy for you.
+      <section id="home">
+        <div class="row h-100">
+          <div class="col-12">
+            <div class="card d-flex align-items-center bg-primary h-100">
+              <div class="row">
+                <div class="col-xl-8 col-xxl-8 xol-lg-8 col-sm-12 h-100">
+                  <div class="border-0 p-xl-5">
+                    <div class="main-text text-white rounded-0">
+                      Where simplicity meets innovation in app development, making solutions easy for you.
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-xl-4 col-xxl-4 xol-lg-4 col-sm-12 p-4 bg-primary">
-                <div class="card border-0 rounded mt-3 p-1">
-                  <form class="bg-white rounded p-3">
-                    <div class="form-floating mb-3">
-                      <input type="text" class="form-control" id="floatingInput" placeholder="Enter Your Company Name" required>
-                      <label for="floatingInput">Company Name</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                      <input type="text" class="form-control" id="floatingInput" placeholder="Enter Your Name" required>
-                      <label for="floatingInput">Name</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                      <input type="email" class="form-control" id="floatingInput" placeholder="Enter Your Email" required>
-                      <label for="floatingInput">Email</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                      <input type="tel" class="form-control" id="floatingInput" placeholder="Enter Your Phone Number" required>
-                      <label for="floatingInput">Phone</label>
-                    </div>
-                    <div class="p-2 text-center">
-                      <button class="btn btn-danger" type="button" id="submit">Submit</button>
-                    </div>
-                  </form>
+                <div class="col-xl-4 col-xxl-4 xol-lg-4 col-sm-12 p-4">
+                  <div class="card border-0 rounded p-1 bg-primary">
+                    <form class="bg-white rounded p-3">
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="company-name" required>
+                        <label for="company-name">Company Name</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="name" required>
+                        <label for="name">Name</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="email" required>
+                        <label for="email">Email</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="tel" class="form-control" id="phone" required>
+                        <label for="phone">Phone</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="description" required>
+                        <label for="description">What are you looking for?</label>
+                      </div>
+                      <div class="p-2 text-center">
+                        <button class="btn btn-danger" type="button" id="submit">Submit</button>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section id="zoho-creator">
+        <!--  -->
+      </section>
+      <section id="reviews">
+        <!--  -->
+      </section>
+      <section id="about">
+        <!--  -->
+      </section>
+      <section id="contact">
+        <!--  -->
+      </section>
+      
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
