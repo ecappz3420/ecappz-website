@@ -35,7 +35,7 @@ const sendEmail = async () => {
     const phone = document.querySelector("#phone").value;
     const note = document.querySelector("#description").value;
     const url = "https://api.brevo.com/v3/smtp/email";
-    const apiKey = "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" ;
+    const apiKey = window.API_KEY ;
 
     const sender = {
         name: 'ECAPPZ',
