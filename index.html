@@ -16,7 +16,7 @@
 
 <body>
   <div class="container-fluid overflow-x-hidden">
-    <nav class="navbar navbar-expand-lg bg-white p-0">
+    <nav class="navbar navbar-expand-lg bg-white p-0 fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="LOGO.jpg" class="img-fluid navbar-brand"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -28,23 +28,14 @@
             <li class="nav-item">
               <a class="nav-link text-dark active" aria-current="page" href="#home">Home</a>
             </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#zoho-creator">Zoho Creator</a></li>
-                <li><a class="dropdown-item" href="#zoho-crm">Zoho CRM</a></li>
-                <li><a class="dropdown-item" href="#custom-apps">Custom Apps</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#services">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark" href="#reviews">Reviews</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark" href="#about">About</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link text-dark" href="#contact">Contact</a>
@@ -57,8 +48,8 @@
       <section id="home" class="h-100">
         <div class="row h-100">
           <div class="col-12">
-            <div class="bg-primary p-2 d-flex align-items-center h-100">
-              <div class="row">
+            <div class="bg-primary p-2 py-5 d-flex align-items-center h-100">
+              <div class="row mt-5">
                 <div class="col-xl-7 col-xxl-7 xol-lg-7 col-md-6 col-12 h-100">
                   <div class="col-10">
                     <div class="main-text text-white rounded-0">
@@ -76,21 +67,16 @@
           </div>
         </div>
       </section>
-      <section id="zoho-creator">
-        <!--  -->
-      </section>
-      <section id="reviews">
-        <!--  -->
-      </section>
-      <section id="about" class="h-100">
+      <section id="about" class="h-100 mt-3">
+        <div class="fw-bold text-center fs-1">About Us</div>
         <div class="row align-items-center mb-4">
           <div class="col-lg-6 col-xl-6 col-xxl-6 col-12">
-            <div class="text-center basic-text">
-              <img src="Graphic.png" alt="Co-working Office Table" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;">
+            <div class="d-flex justify-content-center basic-text">
+              <img src="Who aere we.png" alt="Co-working Office Table" loading="lazy" style="width:75%; height:75%; display:block; object-fit:cover;">
             </div>
         </div>
           <div class="col-lg-6 col-xl-6 col-xxl-6 col-12 ">
-            <div class="fs-2 fw-bold text-center">Who are we?</div>
+            <div class="fs-2 fw-bold text-center text-primary">Who are we?</div>
               <div class="text-center basic-text mt-3 p-2">
                  We specialize in developing custom software solutions tailored to meet your business needs. Whether it's mobile apps, web apps, or complex enterprise solutions, we harness the power of Zoho products to bring your ideas to life. Our expertise also extends to building applications from scratch, ensuring a perfect fit for your unique requirements.
               </div>
@@ -98,28 +84,27 @@
          
         </div>
         <div class="row align-items-center mb-4">
-          
           <div class="col-lg-6 col-xl-6 col-xxl-6 col-12 ">
-            <div class="fs-2 fw-bold text-center">Our Mission</div>
+            <div class="fs-2 fw-bold text-center text-primary">Our Mission</div>
               <div class="text-center basic-text mt-3 p-2">
                 Our mission is clear: to make every business digital and to empower everyone with the knowledge of technology. We believe in a future where technology is accessible and beneficial for all, driving efficiency and innovation across industries.
               </div>
           </div>
           <div class="col-lg-6 col-xl-6 col-xxl-6 col-12">
-            <div class="text-center basic-text">
-              <img src="Graphic.png" alt="Co-working Office Table" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;">
+            <div class="d-flex justify-content-center basic-text">
+              <img src="Mission.png" alt="Co-working Office Table" loading="lazy" style="width:75%; height:75%;display:block;object-fit:cover;">
             </div>
         </div>
          
         </div>
         <div class="row align-items-center mb-4">
           <div class="col-lg-6 col-xl-6 col-xxl-6 col-12">
-            <div class="text-center basic-text">
-              <img src="Graphic.png" alt="Co-working Office Table" loading="lazy" style="width:100%;height:100%;display:block;object-fit:cover;">
+            <div class="d-flex justify-content-center basic-text">
+              <img src="Our Story.png" alt="Co-working Office Table" loading="lazy" style="width:75%; height:75%;display:block;object-fit:cover;">
             </div>
         </div>
-          <div class="col-lg-6 col-xl-6 col-xxl-6 col-12 ">
-            <div class="fs-2 fw-bold text-center">Our Story</div>
+          <div class="col-lg-6 col-xl-6 col-xxl-6 col-12">
+            <div class="fs-2 fw-bold text-center text-primary">Our Story</div>
               <div class="text-center basic-text mt-3 p-2">
                 ECAPPZ was founded by two passionate software developers who, after years of working for other companies, decided to bring their vision to life. With a shared dream and a wealth of experience, we embarked on this journey to create a company that prioritizes client satisfaction and cutting-edge technology.
               </div>
@@ -129,8 +114,90 @@
         </div>
       
       </section>
-      <section id="contact">
+      <section id="services" class="py-3">
+        <div class="bg-primary p-2">
+          <div class="row m-3">
+            <div class="col-xl-8 col-xxl-8 col-lg-8 col-md-10 col-10">
+              <div class="fs-1 fw-600 fw-bold text-white mt-5">Our Services</div>
+              <p class="text-white mt-3 fs-6 fw-600">At ECAPPZ, we offer a comprehensive range of services designed to meet the diverse needs of modern businesses. Our expertise spans across various domains of software development, ensuring that we can provide the right solution for your specific requirements.</p>
+            </div>
+          </div>
+          <div class="row m-3 mt-5">
+            <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-12">
+              <div class="card service-card border-0">
+                <div class="p-3">
+                  <div class="text-primary fs-4 fw-600">Mobile App Development</div>
+                  <p class="mt-2">Transform your ideas into innovative mobile applications with our expert development team. We create custom mobile apps that are intuitive, user-friendly, and tailored to meet the unique demands of your business. Whether you need an app for iOS, Android, or cross-platform, we've got you covered.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-12">
+              <div class="card service-card border-0">
+                <div class="p-3">
+                  <div class="text-primary fs-4 fw-600">Mobile App Development</div>
+                  <p class="mt-2">Transform your ideas into innovative mobile applications with our expert development team. We create custom mobile apps that are intuitive, user-friendly, and tailored to meet the unique demands of your business. Whether you need an app for iOS, Android, or cross-platform, we've got you covered.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-xxl-4 col-lg-4 col-md-4 col-12">
+              <div class="card service-card mb-5 border-0">
+                <div class="p-3">
+                  <div class="text-primary fs-4 fw-600">Zoho Solutions</div>
+                  <p class="mt-2">Leverage the robust capabilities of Zoho products with our specialized development services. We customize and integrate Zoho applications to streamline your business processes, improve efficiency, and enhance productivity. Our deep understanding of Zoho's ecosystem allows us to create solutions that are perfectly aligned with your needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-primary-subtle p-5">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-12">
+              <div class="card my-5 text-center p-4 border-0 digital-transform">
+                <h1 class="fw-bold">Digital Transformation</h1>
+                <p class="fw-600">Our digital transformation services are designed to help businesses transition from traditional methods to modern, digital solutions. We work closely with you to understand your processes and implement technologies that enhance your operations. Our goal is to make your business more agile, efficient, and competitive.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-12">
+              <div class="my-5">
+                <div class="d-flex justify-content-center basic-text">
+                  <img src="Digital transform.png" alt="Co-working Office Table" loading="lazy" style="width:75%; height:75%;display:block;object-fit:cover;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reviews">
         <!--  -->
+      </section>
+      
+      <section id="contact">
+        <div class="bg-secondary-subtle">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-12">
+              <div class="d-flex justify-content-center basic-text">
+                <img src="Support.png" alt="Co-working Office Table" loading="lazy" style="width:75%; height:75%;display:block;object-fit:cover;">
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-12">
+            <div class="fs-1 fw-bold text-primary text-center">Contact US</div>
+            <div class="mt-6">
+              <div class="fw-bold text-primary fs-4">Phone</div>
+              <div class="fw-bold fs-5">+91 93440 81058</div>
+            </div>
+            <div class="mt-3">
+              <div class="fw-bold text-primary fs-4">Email</div>
+              <div class="fw-bold fs-5">sales@ecappz.in</div>
+            </div>
+            <div class="mt-3">
+              <div class="fw-bold text-primary fs-4">Careers</div>
+              <div class="fw-bold fs-5">info@ecappz.in</div>
+            </div>
+          </div>
+          </div>
+          
+        </div>
       </section>
       
     </div>
