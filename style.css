@@ -30,6 +30,18 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+footer{
+    height: 100px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-13{
+    font-size: 13px;
+}
 @media (width <= 512px){
     .main-text{
         font-size: 2.5em !important;
