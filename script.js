@@ -1,31 +1,3 @@
-const hideShowtabs = (id) => {
-    const sections = document.querySelectorAll("section");
-    sections.forEach(section => {
-        section.style.display = "none";
-    })
-    document.querySelector(`#${id}`).style.display = "block";
-}
-
-const handleHash = ()=>{
-    let hash = window.location.hash.substring(1);
-    if(!hash){
-        hash = "home";
-    }
-    hideShowtabs(hash);
-}
-document.addEventListener("DOMContentLoaded",()=>{
-    handleHash();
-    window.addEventListener("hashchange",handleHash);
-    const links = document.querySelectorAll(".nav-link");
-    links.forEach(link=> {
-        link.addEventListener('click', (e)=> {
-            e.preventDefault();
-            const id = link.getAttribute('href').substring(1);
-            window.location.hash = id; 
-        });
-    })
-
-})
 
 
 const sendEmail = async () => {
