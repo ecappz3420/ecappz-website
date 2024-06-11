@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 .bg-primary{
     background: rgb(0 81 231) !important;
 }
@@ -17,6 +18,7 @@ body{
 .container-fluid nav img{
     width: 150px !important;
 }
+
 .container-fluid nav .nav-link{
     font-weight: 500 !important;
 }
@@ -26,16 +28,17 @@ body{
     font-weight: 700;
     padding: 15px;
 }
+
 .basic-text{
     font-size: 20px;
     font-weight: 600;
 }
-footer{
-    height: 100px;
-}
+
+
 .fs-12{
     font-size: 12px;
 }
+
 .fs-14{
     font-size: 14px;
 }
