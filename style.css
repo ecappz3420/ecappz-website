@@ -32,11 +32,17 @@ body{
     padding: 15px;
 }
 
+#privacy-policy, #refund-policy, #general-policy{
+    font-weight: 500;
+}
 .basic-text{
     font-size: 20px;
     font-weight: 600;
 }
 
+footer .policy a{
+    text-decoration: none;
+}
 
 .fs-12{
     font-size: 12px;
@@ -66,6 +72,10 @@ body{
 nav .nav-item .nav-link:hover{
     color: rgb(0 81 231) !important;
     transition: 0.2s;
+}
+
+#refund-policy, #general-policy, #privacy-policy{
+    display: none;
 }
 @media (width <= 512px){
     .main-text{
