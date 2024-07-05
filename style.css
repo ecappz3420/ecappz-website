@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-primary{
+    background: rgb(0 81 231) !important;
+}
+
+#home{
+    height: 100vh !important;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    font-family: "Montserrat", sans-serif;
+    padding: 0 !important;
+}
+.container-fluid nav img{
+    width: 150px !important;
+}
+
+.container-fluid nav .nav-link{
+    font-weight: 500 !important;
+}
+
+.main-text{
+    font-size: 3.5em;
+    font-weight: 700;
+    padding: 15px;
+}
+
+#privacy-policy, #refund-policy, #general-policy{
+    font-weight: 500;
+}
+.basic-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer .policy a{
+    text-decoration: none;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fw-600{
+    font-weight: 600;
+}
+.digital-transform{
+    border-radius: 25px !important;
+}
+.service-card{
+    height: 350px !important;
+    border-radius: 25px !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+nav .nav-item .nav-link:hover{
+    color: rgb(0 81 231) !important;
+    transition: 0.2s;
+}
+
+#refund-policy, #general-policy, #privacy-policy{
+    display: none;
+}
+@media (width <= 512px){
+    .main-text{
+        font-size: 2.5em !important;
+    }
+    .service-card{
+        font-size: 14px;
+    }
+
+    footer div, footer a{
+        font-size: 10px !important;
+    }
+    footer .fs-6{
+        font-size: 12px !important;
+    }
+}
