@@ -8,7 +8,7 @@
 }
 
 #home{
-    height: 100vh !important;
+    min-height: 100vh !important;
 }
 body{
     padding: 0;
@@ -32,12 +32,23 @@ body{
     padding: 15px;
 }
 
+.landing-page-feedback{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 #privacy-policy, #refund-policy, #general-policy{
     font-weight: 500;
 }
 .basic-text{
     font-size: 20px;
     font-weight: 600;
+}
+
+.text-secondary{
+    color: #202020 !important;
 }
 
 footer .policy a{

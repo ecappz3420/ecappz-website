@@ -22,11 +22,47 @@ const showHideFunction = () => {
         document.querySelector(`#${hash}`).style.display = "block";  
         scrollTop(); 
     }
-    else {
-        sections.forEach(section=>{
-            (section.id === "general-policy" || section.id === "refund-policy" || section.id === "privacy-policy") ? section.style.display = "none": section.style.display = "block";
-            scrollTop();
+    else if(hash === "home"){ 
+        sections.forEach(section => {
+            section.style.display = "none";
         })
+        document.querySelector(`#${hash}`).style.display = "block";  
+        scrollTop(); 
+    }
+    else if(hash === "about"){ 
+        sections.forEach(section => {
+            section.style.display = "none";
+        })
+        document.querySelector(`#${hash}`).style.display = "block";  
+        scrollTop(); 
+    }
+    else if(hash === "services"){ 
+        sections.forEach(section => {
+            section.style.display = "none";
+        })
+        document.querySelector(`#${hash}`).style.display = "block";  
+        scrollTop(); 
+    }
+    else if(hash === "reviews"){ 
+        sections.forEach(section => {
+            section.style.display = "none";
+        })
+        document.querySelector(`#${hash}`).style.display = "block";  
+        scrollTop(); 
+    }
+    else if(hash === "contact"){ 
+        sections.forEach(section => {
+            section.style.display = "none";
+        })
+        document.querySelector(`#${hash}`).style.display = "block";  
+        scrollTop(); 
+    }
+    else{
+        sections.forEach(section => {
+            section.style.display = "none";
+        })
+        document.querySelector(`#home`).style.display = "block";  
+        scrollTop(); 
     }
 }
 
