@@ -25,6 +25,7 @@ const showHideFunction = () => {
     else {
         sections.forEach(section=>{
             (section.id === "general-policy" || section.id === "refund-policy" || section.id === "privacy-policy") ? section.style.display = "none": section.style.display = "block";
+            scrollTop();
         })
     }
 }
