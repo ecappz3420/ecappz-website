@@ -102,4 +102,8 @@ nav .nav-item .nav-link:hover{
     footer .fs-6{
         font-size: 12px !important;
     }
+    .feedback{
+        font-size: 13px !important;
+        margin: 0px 15px 0px 15px;
+    }
 }
