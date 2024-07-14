@@ -90,7 +90,7 @@ nav .nav-item .nav-link:hover{
 .feedbacks .card{
     font-weight: 400;
     font-size: 14px;
-    height: 480px;
+    height: 480px !important;
     padding: 0px 20px 10px 20px;
     margin-bottom: 15px;
     position: relative;
