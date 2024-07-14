@@ -6,7 +6,6 @@
 .bg-primary{
     background: rgb(0 81 231) !important;
 }
-
 #home{
     min-height: 100vh !important;
 }
@@ -15,7 +14,7 @@ body{
     margin: 0;
 }
 .container-fluid{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
     padding: 0 !important;
 }
 .container-fluid nav img{
@@ -28,7 +27,7 @@ body{
 
 .main-text{
     font-size: 3.5em;
-    font-weight: 700;
+    font-weight: 500;
     padding: 15px;
 }
 
@@ -44,7 +43,7 @@ body{
 }
 .basic-text{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .text-secondary{
@@ -69,7 +68,7 @@ footer .policy a{
     font-size: 16px;
 }
 .fw-600{
-    font-weight: 600;
+    font-weight: 500;
 }
 .digital-transform{
     border-radius: 25px !important;
@@ -88,9 +87,23 @@ nav .nav-item .nav-link:hover{
 #refund-policy, #general-policy, #privacy-policy{
     display: none;
 }
-.flogo{
-   margin-bottom: 1px !important;
-} 
+.feedbacks .card{
+    font-weight: 400;
+    font-size: 14px;
+    height: 480px;
+    padding: 0px 20px 10px 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.feedbacks .card .card-footer{
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    background: white;
+    justify-content: center;
+    border: none !important;
+    left: 25%;
+}
 @media (width <= 512px){
     .main-text{
         font-size: 2.5em !important;

@@ -51,6 +51,7 @@ const showHideFunction = () => {
         scrollTop(); 
     }
     else if(hash === "contact"){ 
+        
         sections.forEach(section => {
             section.style.display = "none";
         })
